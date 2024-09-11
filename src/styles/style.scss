@@ -1,0 +1,49 @@
+@import './base/variables';
+@import './base/mixins';
+@import './components/header';
+@import './components/section-order';
+@import './components/section-news';
+@import './components/section-delivery';
+
+
+body{
+    background-color: $color-lightengray;
+}
+
+.container {
+    width: 1300px;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.title{
+    font-family: "Rockinsoda", sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+
+    span{
+        color: $color-orange;
+    }
+}
+
+.description{
+    font-size: 30px;
+    color: $color-darkengrey;
+}
+
+.cta{
+    background-color: $color-orange;
+    color: $color-white;
+    @include flex(center, center);
+    width: 240px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+
+    svg{
+        margin-right: 5px;
+    }
+}
+
+

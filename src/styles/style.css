@@ -1,0 +1,242 @@
+.header {
+  padding: 50px 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .list-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header .list-actions li {
+  background-color: #FF7A00;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .list-actions li.cart {
+  margin-right: 35px;
+  position: relative;
+}
+.header .list-actions li.cart .qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  position: absolute;
+  right: -8px;
+  bottom: -2px;
+  background-color: #FF7A00;
+  box-shadow: 0 0 1px 0 #000;
+}
+
+.navbar {
+  margin-right: 58px;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar__item {
+  margin: 0 50px;
+}
+.navbar__item:last-child {
+  margin-right: 0;
+}
+.navbar__item a {
+  font-size: 18px;
+  color: #000;
+}
+.navbar__item.active a {
+  color: #FF7A00;
+}
+
+.section__order {
+  margin-top: 100px;
+}
+.section__order .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__order--left {
+  width: 50%;
+  max-width: 530px;
+  padding-top: 30px;
+}
+.section__order--left .description {
+  margin: 30px 0 75px;
+}
+.section__order--right {
+  width: 50%;
+}
+
+.section__news {
+  background-color: #FF7A00;
+  margin-top: 100px;
+  padding: 115px 0;
+}
+.section__news--title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 39px;
+  margin-right: 80px;
+  max-width: 430px;
+}
+.section__news--title::after {
+  content: "";
+  display: block;
+  width: 75%;
+  border-bottom: 2px dashed #ffffff;
+  transform: translateY(40px);
+}
+.section__news .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section__news--form {
+  width: 925px;
+  height: 100px;
+  position: relative;
+}
+.section__news--form_ipt {
+  background-color: #ffffff;
+  border: none;
+  height: 100%;
+  display: block;
+  padding: 32px 300px 32px 78px;
+  border-radius: 50px 0 0 50px;
+  font-size: 24px;
+  color: #454545;
+  outline: none;
+}
+.section__news--form_btn {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #202020;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  border-radius: 50px;
+  transition: background-color 225ms ease;
+  cursor: pointer;
+}
+.section__news--form_btn:hover {
+  background-color: #2d2d2d;
+}
+
+.section__delivery {
+  margin-top: 60px;
+}
+.section__delivery--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__delivery--top_left {
+  width: 50%;
+}
+.section__delivery--top_right {
+  width: 45%;
+}
+.section__delivery--top_right .subtitle {
+  font-family: "Rockinsoda", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+}
+.section__delivery--top_right .subtitle svg {
+  margin-left: 5px;
+}
+.section__delivery--top_right .subtitle span {
+  color: #FF7A00;
+}
+.section__delivery--products {
+  padding: 125px 0;
+  background-color: rgba(196, 196, 196, 0.1);
+}
+.section__delivery--products ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.section__delivery--products_item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section__delivery--products_item h5 {
+  margin: 20px 0 25px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.section__delivery--products_item p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #454545;
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+.container {
+  width: 1300px;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.title {
+  font-family: "Rockinsoda", sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+}
+.title span {
+  color: #FF7A00;
+}
+
+.description {
+  font-size: 30px;
+  color: #202020;
+}
+
+.cta {
+  background-color: #FF7A00;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.cta svg {
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+cirar mixin de breakpoint - RESPONSIVIDADE
+versão mobile
+
+no best seller incluir o GLIDE.JS
+
+fazer o Footer incluindo o ACCORDION

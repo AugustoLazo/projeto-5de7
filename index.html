@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 5 de 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./src/img/Foodhub-logo.png" alt="Logo do FoodHub">
+            <div class="header__right">
+                <nav class="navbar">
+                    <ul>
+                        <li class="navbar__item active">
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="list-actions">
+                    <li class="cart">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.7005 6.95189L16.9786 14.9519C17.019 15.2051 17.0021 15.4637 16.9291 15.7101C16.8561 15.9564 16.7287 16.1846 16.5556 16.3791C16.3826 16.5736 16.1679 16.7298 15.9263 16.8369C15.6847 16.9441 15.422 16.9997 15.156 16.9999H2.84583C2.57972 16.9999 2.31675 16.9445 2.07496 16.8375C1.83316 16.7305 1.61825 16.5743 1.44496 16.3798C1.27167 16.1853 1.14411 15.957 1.071 15.7105C0.997903 15.464 0.980997 15.2052 1.02145 14.9519L2.29953 6.95189C2.36657 6.53197 2.58752 6.14906 2.92235 5.87252C3.25719 5.59597 3.68377 5.44407 4.12483 5.44434H13.877C14.3179 5.44429 14.7443 5.59628 15.0789 5.87281C15.4136 6.14933 15.6344 6.53212 15.7014 6.95189H15.7005Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M10.8464 2.77778C10.8464 2.30628 10.652 1.8541 10.3059 1.5207C9.95976 1.1873 9.49033 1 9.00085 1C8.51138 1 8.04195 1.1873 7.69583 1.5207C7.34972 1.8541 7.15527 2.30628 7.15527 2.77778"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M8.99353 11.6667V14.3333M6.2251 11.6667H8.99353H6.2251ZM11.762 11.6667H8.99353H11.762ZM8.99353 11.6667V9V11.6667Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="qty">
+                            1
+                        </span>
+                    </li>
+                    <li class="account">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 1.33325C7.34073 1.33325 6.69626 1.52875 6.1481 1.89502C5.59994 2.26129 5.17269 2.78189 4.9204 3.39097C4.66811 4.00006 4.6021 4.67028 4.73072 5.31689C4.85933 5.96349 5.1768 6.55743 5.64298 7.02361C6.10915 7.48978 6.7031 7.80725 7.3497 7.93587C7.9963 8.06449 8.66652 7.99848 9.27561 7.74618C9.8847 7.49389 10.4053 7.06665 10.7716 6.51849C11.1378 5.97032 11.3333 5.32586 11.3333 4.66658C11.3333 3.78253 10.9821 2.93468 10.357 2.30956C9.7319 1.68444 8.88406 1.33325 8 1.33325ZM8 6.66658C7.60444 6.66658 7.21776 6.54929 6.88886 6.32952C6.55996 6.10976 6.30362 5.7974 6.15224 5.43195C6.00087 5.0665 5.96126 4.66437 6.03843 4.2764C6.1156 3.88844 6.30608 3.53208 6.58579 3.25237C6.86549 2.97267 7.22186 2.78219 7.60982 2.70501C7.99778 2.62784 8.39991 2.66745 8.76537 2.81883C9.13082 2.9702 9.44318 3.22655 9.66294 3.55544C9.8827 3.88434 10 4.27102 10 4.66658C10 5.19702 9.78929 5.70573 9.41421 6.0808C9.03914 6.45587 8.53043 6.66658 8 6.66658ZM14 13.9999V13.3333C14 12.0956 13.5083 10.9086 12.6332 10.0334C11.758 9.15825 10.571 8.66658 9.33333 8.66658H6.66667C5.42899 8.66658 4.242 9.15825 3.36683 10.0334C2.49167 10.9086 2 12.0956 2 13.3333V13.9999H3.33333V13.3333C3.33333 12.4492 3.68452 11.6013 4.30964 10.9762C4.93477 10.3511 5.78261 9.99992 6.66667 9.99992H9.33333C10.2174 9.99992 11.0652 10.3511 11.6904 10.9762C12.3155 11.6013 12.6667 12.4492 12.6667 13.3333V13.9999H14Z"
+                                fill="white" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section__order">
+            <div class="container">
+                <div class="section__order--left">
+                    <h1 class="title">Best <span>Food</span> For You</h1>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="cta">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.0933 29.3333C22.4475 29.3353 22.7984 29.2668 23.1258 29.1317C23.4532 28.9967 23.7503 28.7978 24 28.5466L27.6133 24.9333C27.8617 24.6835 28.0011 24.3455 28.0011 23.9933C28.0011 23.641 27.8617 23.3031 27.6133 23.0533L22.28 17.7199C22.0302 17.4716 21.6923 17.3322 21.34 17.3322C20.9878 17.3322 20.6498 17.4716 20.4 17.7199L18.2667 19.8399C16.7897 19.4461 15.4218 18.7211 14.2667 17.7199C13.2682 16.563 12.5435 15.1957 12.1467 13.7199L14.2667 11.5866C14.515 11.3368 14.6544 10.9989 14.6544 10.6466C14.6544 10.2944 14.515 9.95643 14.2667 9.70661L8.93334 4.37328C8.68352 4.12494 8.34558 3.98555 7.99334 3.98555C7.64109 3.98555 7.30315 4.12494 7.05334 4.37328L3.45334 7.99994C3.20218 8.2496 3.00326 8.54678 2.8682 8.87414C2.73313 9.2015 2.66462 9.55249 2.66667 9.90661C2.78763 15.0297 4.83477 19.919 8.4 23.5999C12.081 27.1652 16.9703 29.2123 22.0933 29.3333ZM8 7.21328L11.4533 10.6666L9.73334 12.3866C9.57043 12.5392 9.44844 12.7303 9.37855 12.9423C9.30867 13.1542 9.29312 13.3804 9.33334 13.5999C9.8317 15.8271 10.8868 17.8915 12.4 19.5999C14.1071 21.1151 16.172 22.1705 18.4 22.6666C18.6162 22.7118 18.8403 22.7026 19.0521 22.6397C19.2639 22.5769 19.4567 22.4624 19.6133 22.3066L21.3333 20.5466L24.7867 23.9999L22.12 26.6666C17.6983 26.5528 13.4793 24.7881 10.2933 21.7199C7.21722 18.5326 5.44748 14.3081 5.33334 9.87994L8 7.21328ZM26.6667 14.6666H29.3333C29.3679 13.0813 29.0811 11.5054 28.4903 10.0338C27.8995 8.56228 27.0169 7.2256 25.8956 6.10434C24.7743 4.98307 23.4377 4.10043 21.9661 3.50961C20.4946 2.9188 18.9187 2.63204 17.3333 2.66661V5.33328C18.5705 5.29048 19.8033 5.50262 20.9551 5.95652C22.1068 6.41042 23.1529 7.09637 24.0282 7.97173C24.9036 8.84709 25.5895 9.89315 26.0434 11.0449C26.4973 12.1966 26.7095 13.4294 26.6667 14.6666Z"
+                                fill="white" />
+                            <path
+                                d="M17.3333 10.6667C20.1333 10.6667 21.3333 11.8667 21.3333 14.6667H24C24 10.3733 21.6266 8 17.3333 8V10.6667Z"
+                                fill="white" />
+                        </svg>
+                        Order now
+                    </a>
+                </div>
+                <div class="section__order--right">
+                    <img src="./src/img/main-photo.png" alt="Imagem de 4 rosquinhas" loading="lazy">
+                </div>
+            </div>
+        </section>
+        <section class="section__news">
+            <div class="container">
+                <h4 class="section__news--title">Join our newsletter and get 30% off your first order</h4>
+                <form class="section__news--form">
+                    <input class="section__news--form_ipt" type="email" id="email" required
+                        placeholder="enter your email......">
+                    <button class="section__news--form_btn" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <section class="section__delivery">
+            <div class="container">
+                <div class="section__delivery--top">
+                    <div class="section__delivery--top_left">
+                        <img src="./src/img/delivery-man.png" alt="Imagem de um entregador delivery">
+                    </div>
+                    <div class="section__delivery--top_right">
+                        <h3 class="subtitle">
+                            <span>Fast </span>Delivery
+                            <svg width="65" height="52" viewBox="0 0 65 52" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_90)">
+                                    <path
+                                        d="M63.375 35.75H61.75V24.7711C61.75 23.4812 61.232 22.2422 60.318 21.3281L50.1719 11.182C49.2578 10.268 48.0187 9.75 46.7289 9.75H42.25V4.875C42.25 2.18359 40.0664 0 37.375 0H11.375C8.68359 0 6.5 2.18359 6.5 4.875V9.75H0.8125C0.365625 9.75 0 10.1156 0 10.5625V12.1875C0 12.6344 0.365625 13 0.8125 13H28.4375C28.8844 13 29.25 13.3656 29.25 13.8125V15.4375C29.25 15.8844 28.8844 16.25 28.4375 16.25H4.0625C3.61562 16.25 3.25 16.6156 3.25 17.0625V18.6875C3.25 19.1344 3.61562 19.5 4.0625 19.5H25.1875C25.6344 19.5 26 19.8656 26 20.3125V21.9375C26 22.3844 25.6344 22.75 25.1875 22.75H0.8125C0.365625 22.75 0 23.1156 0 23.5625V25.1875C0 25.6344 0.365625 26 0.8125 26H21.9375C22.3844 26 22.75 26.3656 22.75 26.8125V28.4375C22.75 28.8844 22.3844 29.25 21.9375 29.25H6.5V42.25C6.5 47.6328 10.8672 52 16.25 52C21.6328 52 26 47.6328 26 42.25H39C39 47.6328 43.3672 52 48.75 52C54.1328 52 58.5 47.6328 58.5 42.25H63.375C64.2688 42.25 65 41.5187 65 40.625V37.375C65 36.4813 64.2688 35.75 63.375 35.75ZM16.25 47.125C13.5586 47.125 11.375 44.9414 11.375 42.25C11.375 39.5586 13.5586 37.375 16.25 37.375C18.9414 37.375 21.125 39.5586 21.125 42.25C21.125 44.9414 18.9414 47.125 16.25 47.125ZM48.75 47.125C46.0586 47.125 43.875 44.9414 43.875 42.25C43.875 39.5586 46.0586 37.375 48.75 37.375C51.4414 37.375 53.625 39.5586 53.625 42.25C53.625 44.9414 51.4414 47.125 48.75 47.125ZM56.875 26H42.25V14.625H46.7289L56.875 24.7711V26Z"
+                                        fill="#FF7A00" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_90">
+                                        <rect width="65" height="52" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </h3>
+                        <p class="description">India's fastest Food delivery service. Don't Blink. Our delivery partner
+                            will be at your door in 10 minutes. Enjoy. Boom! You'll never have to wait ...</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section__delivery--products">
+                <div class="container">
+                    <ul>
+                        <li class="section__delivery--products_item">
+                            <img src="./src/img/Starbucks.png" alt="Starbucks">
+                            <h5>Starbucks</h5>
+                            <p>$928.41</p>
+                        </li>
+                        <li class="section__delivery--products_item">
+                            <img src="./src/img/Tajikistan.png" alt="Tajikistan">
+                            <h5>Tajikistan</h5>
+                            <p>$767.50</p>
+                        </li>
+                        <li class="section__delivery--products_item">
+                            <img src="./src/img/Brazil.png" alt="Brazil">
+                            <h5>Brazil</h5>
+                            <p>$490.51</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

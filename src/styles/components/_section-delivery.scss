@@ -1,0 +1,58 @@
+.section__delivery {
+    margin-top: 60px;
+
+    &--top {
+        @include flex (space-between, center);
+
+        &_left {
+            width: 50%;
+        }
+
+        &_right {
+            width: 45%;
+
+            .subtitle {
+                font-family: "Rockinsoda", sans-serif;
+                font-size: 72px;
+                font-weight: 400;
+
+                svg {
+                    margin-left: 5px;
+                }
+
+                span {
+                    color: $color-orange;
+                }
+            }
+        }
+    }
+
+    &--products {
+        padding: 125px 0;
+        background-color: $color-lightgray;
+
+        ul {
+            @include flex (space-between, flex-start);
+
+        }
+
+        &_item {
+            width: 30%;
+            @include flex (center, center);
+            flex-direction: column;
+
+            h5{
+                margin: 20px 0 25px;
+                font-weight: 500;
+                font-size: 24px;
+            }
+
+            p {
+                font-weight: 600;
+                font-size: 18px;
+                color: $color-darkgray;
+            }
+        }
+    }
+
+}
